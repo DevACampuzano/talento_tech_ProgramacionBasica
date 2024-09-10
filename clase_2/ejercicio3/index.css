@@ -1,0 +1,14 @@
+/* Estiliza elementos con la clase boton */
+.boton{
+    padding: 10px 20px; /* espacio interno [vertical, horizontal] */
+    background-color: #3498db; /* color de fondo */
+    color: white; /* color de la fuente */
+    border:none; /* sin borde */
+    cursor: pointer; /* cursor */
+    transition:background-color 0.3s ease; /* transición de cambio de color de fondo con una duracion de 0.3 segundo con un efecto ease*/
+}
+
+/* Estiliza elementos con la clase boton en el evento hover*/
+.boton:hover{
+    background-color: #2980b9; /* color de fondo */
+}

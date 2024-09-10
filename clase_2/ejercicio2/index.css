@@ -1,0 +1,20 @@
+/* Estiliza todos los elementos de tipo html, body*/
+html, body{
+    height: 100%; /* 100% del alto */
+    margin: 0; /* margen */
+}
+
+/* Estiliza elementos con la clase contenedor */
+.contenedor{
+    display: flex; /* flexbox */
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; /* centra verticalmente */
+    height: 100vh; /* 100% del alto de la ventana */
+}
+
+/* Estiliza elementos con la clase centrado*/
+.centrado{
+  background-color: lightblue; /* color de fondo */
+  padding: 20px; /* espacio interno */
+  font-size: 20px; /* tamaño de la fuente*/
+}

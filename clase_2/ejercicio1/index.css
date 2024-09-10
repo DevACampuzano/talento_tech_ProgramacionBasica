@@ -1,0 +1,19 @@
+/* Estiliza todos los elementos de tipo li */
+li{
+    color: black; /* color de la fuente */
+}
+
+/* Estiliza elementos de tipo li con data-type="frutas" */
+li[data-type="frutas"] {
+  background-color: lightgreen; /* color de fondo */
+}
+
+/* Estiliza elementos con data-type="verduras" */
+li[data-type="verduras"] {
+  background-color: orange; /* color de fondo */
+}
+
+/* Estiliza elementos con data-type="carnes" */
+li[data-type="carnes"] {
+  background-color:lightcoral; /* color de fondo */
+}

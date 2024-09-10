@@ -1,0 +1,13 @@
+/* Estiliza elementos con la clase grid-contenedor */
+.grid-contenedor {
+  display: grid; /* grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+  gap: 10px; /* espacio entre elementos */
+}
+
+/* Estiliza elementos internos de tipo div de un elemento con la clase grid-contenedor */
+.grid-contenedor>div{
+    background-color: lightcoral; /* color de fondo */
+    padding: 20px; /* espacio interno */
+    text-align: center;/* centrado de texto */
+}

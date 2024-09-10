@@ -1,0 +1,6 @@
+/* Estiliza elementos con la clase imagen-redonda */
+.imagen-redonda {
+  border-radius: 50%; /* borde redondeado */
+  width: 200px; /* ancho */
+  height: 200px; /* alto */
+}
