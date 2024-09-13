@@ -1,0 +1,7 @@
+.contenedor{
+    justify-content: center; /* centra horizontalmente */
+  }
+  .centrado{
+    background-color: lightcoral;
+    width: 80%;
+  }

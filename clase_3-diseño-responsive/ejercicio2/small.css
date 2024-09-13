@@ -1,0 +1,8 @@
+.contenedor{
+    flex-direction: column; /* acomoda los elementos en columnas */
+    flex-wrap: nowrap;/* no permite que los elementos se acomoden en varias filas */
+  }
+
+  .centrado{
+    background-color: lightseagreen;
+  }

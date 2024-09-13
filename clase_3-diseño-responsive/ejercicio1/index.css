@@ -1,20 +1,25 @@
 /* Estiliza todos los elementos de tipo html, body*/
-html, body{
-    height: 100%; /* 100% del alto */
-    margin: 0; /* margen */
-    background-color: rgb(213, 213, 213); /* cambia el color de fondo de la pagina */
+html,
+body {
+  height: 100%; /* 100% del alto */
+  margin: 0; /* margen */
+  background-color: rgb(
+    213,
+    213,
+    213
+  ); /* cambia el color de fondo de la pagina */
 }
 
 /* Estiliza elementos con la clase contenedor */
-.contenedor{
-    display: flex; /* flexbox */
-    justify-content: center; /* centra horizontalmente */
-    align-items: center; /* centra verticalmente */
-    height: 100vh; /* 100% del alto de la ventana */
+.contenedor {
+  display: flex; /* flexbox */
+  justify-content: center; /* centra horizontalmente */
+  align-items: center; /* centra verticalmente */
+  height: 100vh; /* 100% del alto de la ventana */
 }
 
 /* Estiliza elementos con la clase centrado*/
-.centrado{
+.centrado {
   background-color: lightgreen; /* color de fondo */
   width: 50%; /* ancho */
   height: 50%; /* alto */
@@ -32,14 +37,14 @@ md, medium: 900px
 
 */
 /* Estilos para pantallas medianas */
-@media only screen and (max-width:900px){
-  .centrado{
+@media only screen and (max-width: 900px) {
+  .centrado {
     background-color: lightcoral;
   }
 }
 /* Estilos para pantallas muy pequeñas  */
-@media only screen and (max-width:600px){
-  .centrado{
+@media only screen and (max-width: 600px) {
+  .centrado {
     background-color: lightseagreen;
   }
 }
