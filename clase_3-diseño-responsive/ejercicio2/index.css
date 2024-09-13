@@ -13,7 +13,8 @@ html, body{
     height: 100vh; /* 100% del alto de la ventana */
     gap: 20px; /* espacio entre elementos */
     flex-wrap: wrap; /* permite que los elementos se acomoden en varias filas */
-    padding: 20px;/* espacio interno */
+    padding: 20px 80px;/* espacio interno */
+    
 }
 
 /* Estiliza elementos con la clase centrado*/
